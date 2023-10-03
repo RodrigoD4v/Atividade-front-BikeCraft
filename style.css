@@ -1,0 +1,175 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a:hover{
+    border: solid 2px #900;
+}
+
+.lista {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+  }
+
+.lista a{
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    color:black ;
+    padding: 20px;
+    border-radius: 7px;
+  }
+
+
+main{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.informacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-content: center;
+    background-color: white;
+}
+
+
+.informacao h1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-right: 30px;
+    font-size: 2.2rem;
+}
+
+.informacao h1::before{
+    content: '___';
+    color: #ee2211;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 350px;
+}
+
+.informacao p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    text-align: end;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.informacao button{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ee2211;
+    color: white;
+    border-radius: 7px;
+    border:none;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #900;
+}
+
+.imagembackgorund{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(./img/onda.svg);
+}
+
+.imagembackgorund h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: #c6c6c6;
+    align-content: center;
+    text-align: end;
+    font-size: 4.5rem;
+    margin-right: 30px;
+   
+}
+
+.produto{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2;
+    max-width:100%;
+}
+
+.imagem{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.vantagens{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.vantagem:hover{
+    border-left: solid 4px #ee2211;
+    cursor: pointer;
+}
+
+.vantagem{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+    padding: 0px 0px 0px 30px;
+
+}
+.vantagem img{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.vantagem p{
+    font-size: 1.3rem;
+    grid-column: 2;
+    margin-top: 0px;
+}
+
+.vantagem h3{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 25px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
